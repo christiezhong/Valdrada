@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cantata+One|Domine|Prata');
+
+html {
+font-size: 12px;
+}
+
+
+body {
+
+    font-family: 'Cantata One', sans-serif;
+    font-size: 100px;
+    color: #0f3066;
+    margin: 0;
+    /* To remove space between body and browser window */
+}
+
+p.invisible {
+
+  text-decoration: none;
+    color: transparent;
+}
+
+p:hover
+{
+    color: white;
+}
+/* to create hidden text upon hover*/
+
+
+
+/*p.invisible1 {
+
+  text-decoration: none;
+    color: transparent;
+}
+
+p:hover
+{
+    color: darkblue;
+}
