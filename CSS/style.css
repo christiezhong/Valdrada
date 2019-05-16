@@ -12,7 +12,30 @@ body {
     font-size: 100px;
     color: #0f3066;
     margin: 0;
-    /* To remove space between body and browser window */
+    text-align: center;
+}
+
+
+/* #heading {
+  font-family: 'Cantata One', sans-serif;
+  font-size: 100px;
+  color: #0f3066;
+  margin: 0;
+  text-align: center;
+} */
+
+
+#grad1 {
+  height: 200vh;
+  background-color: red; /* For browsers that do not support gradients */
+
+  /*background-color: linear-gradient(0deg, #bad8ef, #d2efec, #e1e9ef)*/
+
+
+
+
+ background-image: linear-gradient(0deg, #061e44, #05347f, #bad8ef, #d2efec, #e1e9ef); Standard syntax (must be last) */
+  margin: 0;
 }
 
 p.invisible {
