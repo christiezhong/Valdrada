@@ -24,19 +24,16 @@ body {
   text-align: center;
 } */
 
-
 #grad1 {
-  height: 200vh;
+  height: 400vh;
   background-color: red; /* For browsers that do not support gradients */
 
   /*background-color: linear-gradient(0deg, #bad8ef, #d2efec, #e1e9ef)*/
-
-
-
-
- background-image: linear-gradient(0deg, #061e44, #05347f, #bad8ef, #d2efec, #e1e9ef); Standard syntax (must be last) */
+  background-image: linear-gradient(0deg, #061e44, #05347f, #bad8ef, #d2efec, #e1e9ef); Standard syntax (must be last) */
   margin: 0;
 }
+
+
 
 p.invisible {
 

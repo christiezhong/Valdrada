@@ -1,5 +1,6 @@
-$(document).ready(function () {
-            $("#grad1").hover(function () {
-                $(this).css("background", "red");
-            }
-        });
+$(document).ready(function(){
+  $("p").hover(function(){
+    $("p:first").replaceWith("Hello world!");
+  });
+});
+</script>
