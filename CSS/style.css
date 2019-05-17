@@ -1,11 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Cantata+One|Domine|Prata');
 
-html {
-font-size: 12px;
-}
-
-
 body {
 
     font-family: 'Cantata One', sans-serif;
@@ -15,17 +10,8 @@ body {
     text-align: center;
 }
 
-
-/* #heading {
-  font-family: 'Cantata One', sans-serif;
-  font-size: 100px;
-  color: #0f3066;
-  margin: 0;
-  text-align: center;
-} */
-
 #grad1 {
-  height: 400vh;
+  height: 640vh;
   background-color: red; /* For browsers that do not support gradients */
 
   /*background-color: linear-gradient(0deg, #bad8ef, #d2efec, #e1e9ef)*/
@@ -39,23 +25,32 @@ p.invisible {
 
   text-decoration: none;
     color: transparent;
+    font-size: 150px;
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+    ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
+
+p.invisible1 {
+
+  text-decoration: none;
+    color: transparent;
+    font-size: 70px;
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+    ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
 
 p:hover
 {
     color: white;
 }
+
 /* to create hidden text upon hover*/
-
-
-
-/*p.invisible1 {
-
-  text-decoration: none;
-    color: transparent;
-}
-
-p:hover
-{
-    color: darkblue;
-}
