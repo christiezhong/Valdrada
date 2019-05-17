@@ -10,7 +10,8 @@
 
 	if( backTop ) {
 		//update back to top visibility on scrolling
-		window.addEventListener("scroll", function(event) {
+		window.addEventListener("scroll", function(event) , "slow");
+     {
 			if( !scrolling ) {
 				scrolling = true;
 				(!window.requestAnimationFrame) ? setTimeout(checkBackToTop, 250) : window.requestAnimationFrame(checkBackToTop);
